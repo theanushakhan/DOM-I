@@ -46,3 +46,16 @@ ctaImg.src = siteContent["cta"]["img-src"];
 
 let midImg = document.getElementById("middle-img");
 midImg.src = siteContent["main-content"]["middle-img-src"];
+
+//Update to Navigation
+const navA = document.querySelectorAll("A");
+console.log(navA);
+
+navA[0].textContent = siteContent["nav"]["nav-item-1"];
+navA[1].textContent = siteContent["nav"]["nav-item-2"];
+navA[2].textContent = siteContent["nav"]["nav-item-3"];
+navA[3].textContent = siteContent["nav"]["nav-item-4"];
+navA[4].textContent = siteContent["nav"]["nav-item-5"];
+navA[5].textContent = siteContent["nav"]["nav-item-6"];
+
+
