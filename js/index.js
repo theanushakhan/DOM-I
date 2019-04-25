@@ -58,4 +58,8 @@ navA[3].textContent = siteContent["nav"]["nav-item-4"];
 navA[4].textContent = siteContent["nav"]["nav-item-5"];
 navA[5].textContent = siteContent["nav"]["nav-item-6"];
 
-
+// CTA UPDATE
+const mainHeader = document.getElementsByTagName("h1");
+mainHeader.textContent = siteContent["cta"]["h1"];
+// mainHeader.style.color = "black";
+console.log(mainHeader.textContent);
